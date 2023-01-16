@@ -12,6 +12,6 @@
   {env,[]},
   {modules, [messagerl_server_app, messagerl_server_mem, messagerl_server_serv, messagerl_server_sup]},
 
-  {licenses, ["Apache-2.0"]},
+  {licenses, ["WTFPL-2"]},
   {links, []}
  ]}.

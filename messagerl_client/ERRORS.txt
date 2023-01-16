@@ -1,0 +1,12 @@
+applications for both client and server can be installed and
+started without any (apparent) problem
+
+when I try to test the application, the only thing i can do at first
+is registering an account (every other action being forbidden without
+an account), I don't know why but it makes a call to terminate which
+kills the client gen_server and therefore forbid us to register anything
+and so to test the rest of the application
+
+the only way to fix it will be to know why this call is made, but i
+don't know how to get this information
+

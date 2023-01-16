@@ -20,3 +20,5 @@ the mnesia functionalities for storing and efficiently searching through
 tables for user accounts and messages
 
 
+Details on the problems with debug can be found in the messagerl_client/ERRORS.txt
+

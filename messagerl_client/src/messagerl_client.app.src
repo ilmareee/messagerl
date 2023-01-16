@@ -9,11 +9,11 @@
     crypto,
     mnesia
    ]},
-  {env, [{server, 'messagerl_server@127.0.0.1'}]},
+  {env, [{server, {'messagerl_server@127.0.0.1', longname}}]},
   {modules, [messagerl_client_app, messagerl_client_api,
              messagerl_client_mem, messagerl_client_serv,
              messagerl_client_sup]},
 
-  {licenses, ["Apache-2.0"]},
+  {licenses, ["WTFPL-2"]},
   {links, []}
  ]}.
